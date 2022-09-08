@@ -1,13 +1,11 @@
-import React, {Component, useState} from "react";
+import React from "react";
 import '../styles/App.css';
 
 const App = () => {
-  return (
-    <div id="main">
-      <h1 data-ns-test="project-name">React Learning</h1>
-      <h2 data-ns-test="project-description">This is react starter project</h2>
-    </div>
-  )
+
+    return (
+        <p>Now I can render any React component on any DOM node I want using ReactDOM.render</p>
+    )
 }
 
 
